@@ -98,30 +98,31 @@ CStylePickerDlg::CStylePickerDlg(CWnd* pParent /*=NULL*/)
 
 #define RegExStyle(_style)	m_exStylePicker.AddStyle( L#_style, _style);
 
-	RegExStyle(WS_EX_DLGMODALFRAME);
-	RegExStyle(WS_EX_NOPARENTNOTIFY);
-	RegExStyle(WS_EX_TOPMOST);
 	RegExStyle(WS_EX_ACCEPTFILES);
-	RegExStyle(WS_EX_TRANSPARENT);
-	RegExStyle(WS_EX_MDICHILD);
-	RegExStyle(WS_EX_TOOLWINDOW);
-	RegExStyle(WS_EX_WINDOWEDGE);
+	RegExStyle(WS_EX_APPWINDOW);
 	RegExStyle(WS_EX_CLIENTEDGE);
-	RegExStyle(WS_EX_CONTEXTHELP);
-	RegExStyle(WS_EX_RIGHT);
-	RegExStyle(WS_EX_LEFT);
-	RegExStyle(WS_EX_RTLREADING);
-	RegExStyle(WS_EX_LTRREADING);
-	RegExStyle(WS_EX_LEFTSCROLLBAR);
-	RegExStyle(WS_EX_RIGHTSCROLLBAR);
-	RegExStyle(WS_EX_CONTROLPARENT);
-	RegExStyle(WS_EX_STATICEDGE);
-	RegExStyle(WS_EX_LAYERED);
-	RegExStyle(WS_EX_NOINHERITLAYOUT);
-	RegExStyle(WS_EX_NOREDIRECTIONBITMAP);
-	RegExStyle(WS_EX_LAYOUTRTL);
 	RegExStyle(WS_EX_COMPOSITED);
+	RegExStyle(WS_EX_CONTEXTHELP);
+	RegExStyle(WS_EX_CONTROLPARENT);
+	RegExStyle(WS_EX_DLGMODALFRAME);
+	RegExStyle(WS_EX_LAYERED);
+	RegExStyle(WS_EX_LAYOUTRTL);
+	RegExStyle(WS_EX_LEFT);
+	RegExStyle(WS_EX_LEFTSCROLLBAR);
+	RegExStyle(WS_EX_LTRREADING);
+	RegExStyle(WS_EX_MDICHILD);
 	RegExStyle(WS_EX_NOACTIVATE);
+	RegExStyle(WS_EX_NOINHERITLAYOUT);
+	RegExStyle(WS_EX_NOPARENTNOTIFY);
+	RegExStyle(WS_EX_NOREDIRECTIONBITMAP);
+	RegExStyle(WS_EX_RIGHT);
+	RegExStyle(WS_EX_RIGHTSCROLLBAR);
+	RegExStyle(WS_EX_RTLREADING);
+	RegExStyle(WS_EX_STATICEDGE);
+	RegExStyle(WS_EX_TOOLWINDOW);
+	RegExStyle(WS_EX_TOPMOST);
+	RegExStyle(WS_EX_TRANSPARENT);
+	RegExStyle(WS_EX_WINDOWEDGE);
 
 #define RegFakeExStyle(_style,_realstyle) m_exStylePicker.AddFakeStyle(_style,_realstyle);
 
